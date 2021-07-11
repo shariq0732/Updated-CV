@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-  font-size:  4.5rem;
+  font-size:  450%;
   margin-top: 55px;
   font-family: 'Sacramento', cursive;
   color: #66BFBF;
@@ -28,6 +28,8 @@ h2{
   position: absolute;
   right: 305px;
   top: 50px;
+  width: 10%;
+  height: auto;
 
 }
 
@@ -35,6 +37,13 @@ h2{
   position: absolute;
   left: 305px;
   bottom: 300px;
+  width: 10%;
+  height: auto;
+}
+
+.mountain{
+  width: 50%;
+  height: auto;
 }
 
 .pro{
@@ -99,9 +108,14 @@ hr{
   margin: 100px auto;
 }
 
-.bottom-container{
+.bottom-container-parent{
   background-color: #66BFBF;
-  margin: 0px;
+}
+
+.bottom-container{
+  width: 50%;
+  background-color: #66BFBF;
+  margin: 0px auto;
 }
 .footer-link{
   margin: 0px 40px;
